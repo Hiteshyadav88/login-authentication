@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <script src="https://kit.fontawesome.com/60c0a701aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+   
+</head>
+<body>
+    <div class="main">
+        <h1 style="text-align: center;">Login Authentication</h1>
+        <div class="form-box">
+            <h1 style="text-align: center;" id="title">Sign Up</h1>
+            <form>
+
+                <div class="input-group">
+                    <center>
+                        <div style="justify-content: center;" id="namefield" class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input class="inputfields" type="text" placeholder="name">
+                        </div>
+
+                        <div style="justify-content: center;" class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input class="inputfields" type="email" placeholder="email">
+                        </div>
+
+                        <div style="justify-content: center;" class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input class="inputfields" type="password" placeholder="password">
+                        </div>
+                        <p>lost pasword <a href="#">click here!</a></p>
+                        <div class="btn-field">
+                            <button  id="signup" type="button">Sign up</button>
+                            <button  id="signin" type="button">Sign in</button>
+
+                        </div>
+                    </center>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="log-out">
+
+        <h2 >you have successfuly logged in</h2>
+        <button class="logout">Log out</button>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
