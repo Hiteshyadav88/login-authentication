@@ -1,0 +1,41 @@
+
+.input-field {
+    /* background: #eaeaea; */
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+button {
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.main {
+
+    border: 2px dotted orange;
+    border-radius: 5%;
+    width: 40vw;
+    padding-bottom: 10px;
+}
+
+#log-out {
+    display: none;
+}
+
+input {
+    background: rgb(243, 232, 232);
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
